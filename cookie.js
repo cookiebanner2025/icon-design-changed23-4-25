@@ -155,7 +155,7 @@ const config = {
     
     // Floating button styling
     floatingButtonStyle: {
-        size: '60px',
+        size: '30px',
         background: '#2ecc71',
         iconColor: '#ffffff',
         border: '2px solid #ffffff',
