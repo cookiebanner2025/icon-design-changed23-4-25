@@ -2365,8 +2365,8 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     }
 
     .cookie-settings-button svg {
-        width: 28px;
-        height: 28px;
+        width: 50px;
+        height: 50px;
         fill: ${config.floatingButtonStyle.iconColor};
         transition: transform 0.3s ease;
     }
