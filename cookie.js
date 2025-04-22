@@ -1887,9 +1887,16 @@ function injectConsentHTML(detectedCookies, language = 'en') {
 
     <!-- Floating Settings Button -->
     <div id="cookieFloatingButton" class="cookie-settings-button" title="${lang.title}">
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-  <path d="M21.5 12c0 5.25-4.25 9.5-9.5 9.5S2.5 17.25 2.5 12 6.75 2.5 12 2.5 21.5 6.75 21.5 12zM12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1zm2 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-5 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6 3a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-9 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-</svg>
+    <div id="cookieFloatingButton" ...>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="16" cy="16" r="14"/>
+        <circle cx="10" cy="10" r="2"/>
+        <circle cx="20" cy="12" r="2"/>
+        <circle cx="12" cy="20" r="2"/>
+        <circle cx="22" cy="18" r="2"/>
+        <circle cx="16" cy="8" r="2"/>
+    </svg>
+</div>
     </div>
     
     ${adminButton}
