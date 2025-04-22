@@ -171,8 +171,8 @@ const config = {
     // Admin button styling
     adminButtonStyle: {
         size: '60px',
-        background: '#3498db',
-        iconColor: '#e62222',
+        background: '#2ecc71',
+        iconColor: '#ffffff',
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
