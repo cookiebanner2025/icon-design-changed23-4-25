@@ -158,7 +158,6 @@ const config = {
         size: '50px',
         background: '#2ecc71',
         iconColor: '#ffffff',
-        iconMargin: '-5px 0 0 0', // Moves the icon 5px upward
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
@@ -2367,11 +2366,12 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     
 #cookieFloatingButton.cookie-settings-button svg,
 #cookieFloatingButton.cookie-settings-button svg path {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     fill: ${config.floatingButtonStyle.iconColor} !important;
     stroke: none;
     transition: transform 0.3s ease;
+    margin-top: 5px; /* Adds 5px margin to move the icon downward, as seen in the screenshot */
 }
 
     .cookie-settings-button:hover svg {
