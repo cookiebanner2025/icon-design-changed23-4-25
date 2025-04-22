@@ -172,7 +172,7 @@ const config = {
     adminButtonStyle: {
         size: '60px',
         background: '#3498db',
-        iconColor: '#ffffff',
+        iconColor: '#e62222,
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
@@ -2371,7 +2371,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     fill: ${config.floatingButtonStyle.iconColor} !important;
     stroke: none;
     transition: transform 0.3s ease;
-    margin-top: 5px; /* Adds 5px margin to move the icon downward, as seen in the screenshot */
+    margin-top: 9px; /* Adds 5px margin to move the icon downward, as seen in the screenshot */
 }
 
     .cookie-settings-button:hover svg {
