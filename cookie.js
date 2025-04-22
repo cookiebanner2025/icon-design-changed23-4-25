@@ -1893,18 +1893,13 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     <!-- Floating Settings Button -->
     <div id="cookieFloatingButton" class="cookie-settings-button" title="${lang.title}">
     <div id="cookieFloatingButton" ...>
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <path d="M21.8 13.9999C20.8734 18.5644 16.8379 21.9999 12 21.9999C6.47715 21.9999 2 17.5228 2 11.9999C2 6.81459 5.94668 2.55104 11 2.04932" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M6.5 10C6.22386 10 6 9.77614 6 9.5C6 9.22386 6.22386 9 6.5 9C6.77614 9 7 9.22386 7 9.5C7 9.77614 6.77614 10 6.5 10Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M20.5 4C20.2239 4 20 3.77614 20 3.5C20 3.22386 20.2239 3 20.5 3C20.7761 3 21 3.22386 21 3.5C21 3.77614 20.7761 4 20.5 4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M12 19C11.4477 19 11 18.5523 11 18C11 17.4477 11.4477 17 12 17C12.5523 17 13 17.4477 13 18C13 18.5523 12.5523 19 12 19Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M7 15.01L7.01 14.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17 15.01L17.01 14.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M11 12.01L11.01 11.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M21 9.01L21.01 8.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M17 6.01L17.01 5.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M11 2C10.5 3.5 11.4999 5 13.0855 5C11 8.5 13 12 18 11.5C18 14 20.5 14.5 21.6998 14.0136" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="none">
+    <path d="M6 8H8.01V10H6V8Z" fill="currentColor"/>
+    <path d="M11 11H13.01V13H11V11Z" fill="currentColor"/>
+    <path d="M8 15H10.01V17H8V15Z" fill="currentColor"/>
+    <path d="M15 15H17.01V17H15V15Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12C1 5.92487 5.92487 1 12 1C12.0366 1 12.0732 1.00018 12.1097 1.00054L13.3208 1.01239L13.08 2.19932C13.0276 2.45721 13 2.72486 13 3C13 4.95769 14.4074 6.58878 16.2659 6.93296L16.9419 7.05815L17.067 7.73414C17.4112 9.59261 19.0423 11 21 11C21.2751 11 21.5428 10.9724 21.8007 10.92L22.9876 10.6792L22.9995 11.8903C22.9998 11.9268 23 11.9634 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12ZM11.0002 3.0549C6.50018 3.55223 3 7.36736 3 12C3 16.9706 7.02944 21 12 21C16.6326 21 20.4478 17.4998 20.9451 12.9998C18.2609 12.9757 15.9991 11.1899 15.2573 8.74272C12.8101 8.00085 11.0243 5.73912 11.0002 3.0549Z" fill="currentColor"/>
+</svg>
 </div>
     </div>
     
@@ -2370,7 +2365,7 @@ function injectConsentHTML(detectedCookies, language = 'en') {
     }
 
     .cookie-settings-button svg {
-        width: 50px;
+        width: 40px;
         height: 50px;
         fill: ${config.floatingButtonStyle.iconColor};
         transition: transform 0.3s ease;
