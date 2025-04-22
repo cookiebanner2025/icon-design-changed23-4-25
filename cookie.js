@@ -158,6 +158,7 @@ const config = {
         size: '50px',
         background: '#2ecc71',
         iconColor: '#ffffff',
+        iconMargin: '-5px 0 0 0', // Moves the icon 5px upward
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
