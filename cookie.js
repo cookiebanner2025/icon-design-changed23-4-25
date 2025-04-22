@@ -172,7 +172,7 @@ const config = {
     adminButtonStyle: {
         size: '60px',
         background: '#3498db',
-        iconColor: '#e62222,
+        iconColor: '#e62222',
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
