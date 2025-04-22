@@ -2364,12 +2364,14 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         box-shadow: ${config.floatingButtonStyle.hover.boxShadow};
     }
 
-    .cookie-settings-button svg {
-        width: 40px;
-        height: 50px;
-        fill: ${config.floatingButtonStyle.iconColor};
-        transition: transform 0.3s ease;
-    }
+.cookie-settings-button svg,
+.cookie-settings-button svg path {
+    width: 28px;
+    height: 28px;
+    fill: ${config.floatingButtonStyle.iconColor} !important;
+    stroke: none;
+    transition: transform 0.3s ease;
+}
 
     .cookie-settings-button:hover svg {
         transform: rotate(15deg);
