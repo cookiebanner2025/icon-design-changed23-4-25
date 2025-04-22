@@ -157,7 +157,7 @@ const config = {
     floatingButtonStyle: {
         size: '50px',
         background: '#2ecc71',
-        iconColor: '#2ecc71',
+        iconColor: '#ffffff',
         border: '2px solid #ffffff',
         borderRadius: '50%',
         boxShadow: '0 6px 20px rgba(0, 0, 0, 0.2)',
@@ -2363,9 +2363,9 @@ function injectConsentHTML(detectedCookies, language = 'en') {
         transform: ${config.floatingButtonStyle.hover.transform};
         box-shadow: ${config.floatingButtonStyle.hover.boxShadow};
     }
-
-.cookie-settings-button svg,
-.cookie-settings-button svg path {
+    
+#cookieFloatingButton.cookie-settings-button svg,
+#cookieFloatingButton.cookie-settings-button svg path {
     width: 28px;
     height: 28px;
     fill: ${config.floatingButtonStyle.iconColor} !important;
