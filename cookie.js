@@ -15,7 +15,7 @@ const config = {
     // Behavior configuration
     behavior: {
         autoShow: true,
-        bannerDelay: 0,
+        bannerDelay: 5,
         rememberLanguage: true,
         acceptOnScroll: false,
         acceptOnContinue: true,
